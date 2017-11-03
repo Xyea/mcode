@@ -4,7 +4,7 @@ cd control
 cd pdvalue
 fidfull=fopen('full.txt','wt');
 file=dir;
-for filenum=4:4
+for filenum=4:length(file)
     data=textread(file(filenum).name);
     data(:,161)=[];
     rank=zeros(160*159/2,4);
