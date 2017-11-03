@@ -1,3 +1,4 @@
+% a test for blockwise permutation method by Adolf et al.
 clear;
 cd con;
 file=dir;
